@@ -1,2 +1,1 @@
 # seizuRepo
-seizuRepo for Kodi
