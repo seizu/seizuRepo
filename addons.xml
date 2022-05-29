@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="repository.seizu" name="seizu Repo" version="1.4" provider-name="seizu">
+<addon id="repository.seizu" name="seizu Repo" version="1.5" provider-name="seizu">
 	<extension point="xbmc.addon.repository" name="seizu Repository">
 		<dir>
 			<info compressed="false">https://raw.github.com/seizu/seizuRepo/master/addons.xml</info>
@@ -12,6 +12,10 @@
 		<summary lang="en"></summary>
 		<description lang="en"></description>
 		<genre></genre>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>			
 	</extension>
 </addon>
 <addon id="repository.resolveurl" name="ResolveURL Repository" provider-name="gujal" version="1.0.0">
