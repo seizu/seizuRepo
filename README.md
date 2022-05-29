@@ -1,8 +1,4 @@
 # seizuRepo
-Kodi Video Plugin for Filmpalast.to
-
-Installation
-------------
 Installation seizu Repo
 -----------------------
 1) Open Kodi go to System->Filemanager->Add source-> https://seizu.github.io/seizuRepo/repo.zip
