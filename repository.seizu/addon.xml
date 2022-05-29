@@ -11,5 +11,9 @@
 		<summary lang="en"></summary>
 		<description lang="en"></description>
 		<genre></genre>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>			
 	</extension>
 </addon>
