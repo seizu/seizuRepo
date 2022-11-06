@@ -39,9 +39,9 @@
     </assets>
   </extension>
 </addon>
-<addon id="plugin.video.filmpalast.ex" name="FilmPalastEx" version="0.2.5" provider-name="seizu">
+<addon id="plugin.video.filmpalast.ex" name="FilmPalastEx" version="0.2.6" provider-name="seizu">
     <requires>
-        <import addon="script.module.resolveurl" version="5.1.67"/>
+        <import addon="script.module.resolveurl" version="5.1.83"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
@@ -56,10 +56,10 @@
 		</assets>
     </extension>
 </addon>
-<addon id="plugin.video.filmpalast.ex" name="FilmPalastEx Kodi19+" version="0.2.5m" provider-name="seizu">
+<addon id="plugin.video.filmpalast.ex" name="FilmPalastEx Kodi19+" version="0.2.6m" provider-name="seizu">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
-        <import addon="script.module.resolveurl" version="5.1.67"/>
+        <import addon="script.module.resolveurl" version="5.1.83"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
@@ -74,7 +74,7 @@
 		</assets>        
     </extension>
 </addon>
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.68" provider-name="gujal">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.83" provider-name="gujal">
     <requires>
         <!-- <import addon="xbmc.python" version="3.0.0" /> -->
         <import addon="script.module.six" />
@@ -102,4 +102,3 @@
         </assets>
     </extension>
 </addon>
-</addons>
