@@ -39,7 +39,7 @@
     </assets>
   </extension>
 </addon>
-<addon id="plugin.video.filmpalast.ex" name="FilmPalastEx" version="0.2.6" provider-name="seizu">
+<addon id="plugin.video.filmpalast.ex" name="FilmPalastEx" version="0.2.7" provider-name="seizu">
     <requires>
         <import addon="script.module.resolveurl" version="5.1.83"/>
     </requires>
@@ -56,7 +56,7 @@
 		</assets>
     </extension>
 </addon>
-<addon id="plugin.video.filmpalast.ex" name="FilmPalastEx Kodi19+" version="0.2.6m" provider-name="seizu">
+<addon id="plugin.video.filmpalast.ex" name="FilmPalastEx Kodi19+" version="0.2.7m" provider-name="seizu">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.resolveurl" version="5.1.83"/>
