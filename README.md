@@ -8,4 +8,5 @@ Installation seizu Repo
 Installation FilmpalastEx  plugin only
 --------------------------------------
 1) Open Kodi go to System->Filemanager->Add source-> https://seizu.github.io/seizuRepo/
-2) Go To AddOns -> Install from zip file-> choose source from step 1) -> Install "plugin.video.filmpalast.ex-0.3.x.zip"
+2) Go To AddOns -> Install from zip file-> choose source from step 1) -> Install "script.module.resolveurl-5.x.x.zip"
+3) Go To AddOns -> Install from zip file-> choose source from step 1) -> Install "plugin.video.filmpalast.ex-0.x.x.zip"
