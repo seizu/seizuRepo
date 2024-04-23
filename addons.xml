@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+
+<addon id="repository.seizu" name="seizu Repo" version="1.7" provider-name="seizu">
+	<extension point="xbmc.addon.repository" name="seizu Repository">
+		<dir>
+			<info compressed="false">https://raw.github.com/seizu/seizuRepo/master/addons.xml</info>
+			<checksum>https://raw.github.com/seizu/seizuRepo/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.github.com/seizu/seizuRepo/master/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en"></summary>
+		<description lang="en"></description>
+		<genre></genre>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>			
+	</extension>
+</addon>
+
+<addon id="repository.resolveurl" name="ResolveURL Repository" provider-name="gujal" version="1.0.0">
+  <extension point="xbmc.addon.repository" name="ResolveURL Repository">
+    <dir>
+      <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <description lang="en_GB">ResolveURL and Link Tester</description>
+    <license></license>
+    <language></language>
+    <website></website>
+    <news></news>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="repository.xstream"
+       name="xStream Repository"
+       version="1.2.1"
+       provider-name="xStream-Team">
+	<extension point="xbmc.addon.repository"
+	           name="xStream Repository">
+        <dir minversion="18.9.701"
+             maxversion="19.9.700">
+            <info compressed="false">https://raw.githubusercontent.com/streamxstream/xStreamRepo/master/matrix/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/streamxstream/xStreamRepo/master/matrix/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/streamxstream/xStreamRepo/master/matrix/</datadir>
+        </dir>
+        <dir minversion="19.9.701"
+             maxversion="20.9.700">
+            <info compressed="false">https://raw.githubusercontent.com/streamxstream/xStreamRepo/master/nexus/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/streamxstream/xStreamRepo/master/nexus/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/streamxstream/xStreamRepo/master/nexus/</datadir>
+        </dir>
+		    <dir minversion="20.9.910"
+		     maxversion="21.9.700">
+            <info compressed="false">https://raw.githubusercontent.com/streamxstream/xStreamRepo/master/omega/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/streamxstream/xStreamRepo/master/omega/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/streamxstream/xStreamRepo/master/omega/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">xStream Repository</summary>
+		<description lang="de_DE">Dies ist das offizielle xStream Addon-Verzeichnis.[CR]Bei der Bereitstellung einer neuen Version von xStream wird diese auf Funktionalität geprüft. Sollten dennoch Probleme auftreten benachrichtige bitte das offizielle xStream-Team.</description>
+		<disclaimer lang="de_DE">Die dargestellten Inhalte des in diesem Verzeichnis enthaltenen Addons werden von den Erstellern des Addons weder gehostet oder verbreitet, noch stehen die Ersteller in irgendeiner Beziehung zu den Content-Anbietern.</disclaimer>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+    </extension>
+</addon>
+
+<addon id="plugin.video.ivysilani.cz" name="iVysílání — Česká televize" version="1.4.0" provider-name="Štěpán Ort">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.stream.resolver" version="1.7.0"/>
+	      <import addon="script.module.web-pdb" optional="true"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>iVysílání — Česká televize</summary>
+        <description>Plugin to play videos and live TV from Czech Television's iVysilani</description>
+        <description lang="cs_CZ">Plugin nabízí přístup do archivu České televize iVysílání i přehrávání kanálů živě.
+        </description>
+        <platform>all</platform>
+	      <language>cs en sk</language>
+		   <assets>
+			<icon>icon.png</icon>
+		  </assets>          
+    </extension>
+</addon>
+
+<addon id="plugin.video.filmpalast.ex" name="FilmPalastEx Kodi19+" version="0.4.0" provider-name="seizu">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.resolveurl" version="5.1.83"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="de">FilmPalast.to FiLME &amp; SERiEN sofort &amp; kostenlos online ansehen!</summary>
+        <summary lang="en">FilmPalast.to MOViS &amp; SERiES, watch online instantly &amp; free!</summary>
+        <description lang="en">FilmPalastEx - Based on FilmPalast plugin by Lary_Loose</description>
+        <source>https://github.com/seizu/plugin.video.filmpalast.ex</source>
+        <website>https://seizu.github.io/seizuRepo/</website>     
+		<assets>
+			<icon>icon.png</icon>
+		</assets>        
+    </extension>
+</addon>
+
+<addon id="script.module.demjson" name="demjson" version="2.3.0" provider-name="Kuci">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib"/>
+    <extension point="xbmc.addon.metadata">
+        <summary>Python module for JSON data encoding, including jsonlint.</summary>
+        <description>demjson is a Python language module for encoding, decoding, and syntax-checking JSON data.</description>
+        <platform>all</platform>
+        <license>GNU LGPL 3.0</license>
+        <source>https://github.com/dmeranda/demjson.git</source>
+        <website>https://github.com/dmeranda/demjson</website>
+    </extension>
+</addon>
+
+<addon id="script.module.stream.resolver" name="Stream Resolver" provider-name="Libor Zoubek" version="1.7.0">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+    <import addon="script.common.plugin.cache" version="2.5.5"/>
+    <import addon="script.module.demjson" version="2.3.0" />
+    <import addon="script.module.beautifulsoup4" version="4.3.1"/>
+    <import addon="script.module.html5lib" version="0.999.0" />
+  </requires>
+  <extension library="lib" point="xbmc.python.module" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="cs">Kodi CZ/SK plugins common python modules mainly for resolving stream URLs</summary>
+    <description lang="cs">Common python modules pack that is used by kodi cz/sk plugins</description>
+    <license>GNU GPL</license>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+</addons>
