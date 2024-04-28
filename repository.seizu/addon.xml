@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.seizu" name="seizu Repo" version="1.7" provider-name="seizu">
+<addon id="repository.seizu" name="seizu Repo" version="1.7.1" provider-name="seizu">
 	<extension point="xbmc.addon.repository" name="seizu Repository">
 		<dir>
 			<info compressed="false">https://raw.github.com/seizu/seizuRepo/master/addons.xml</info>
