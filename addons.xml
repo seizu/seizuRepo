@@ -82,10 +82,10 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.filmpalast.ex" name="FilmPalastEx Kodi19+" version="0.4.1" provider-name="seizu">
+<addon id="plugin.video.filmpalast.ex" name="FilmPalastEx Kodi19+" version="0.4.2" provider-name="seizu">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
-        <import addon="script.module.resolveurl" version="5.1.83"/>
+        <import addon="script.module.resolveurl" version="5.1.149"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
