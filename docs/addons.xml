@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
+
 <addon id="plugin.video.filmpalast.ex" name="FilmPalastEx Kodi19+" version="0.4.3" provider-name="seizu">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
@@ -19,6 +20,7 @@
 		</assets>        
     </extension>
 </addon>
+
 <addon id="plugin.video.ivysilani.cz" name="iVysílání — Česká televize" version="1.4.0" provider-name="Štěpán Ort">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
@@ -37,6 +39,7 @@
 	<language>cs en sk</language>
     </extension>
 </addon>
+
 <addon id="plugin.video.joyn" name="Joyn" version="2.5.29+matrix.1" provider-name="knaerzche, Maven">
 	<requires>
 		<import addon="inputstream.adaptive" version="2.5.0"/>
@@ -71,7 +74,47 @@
 		</assets>
 	</extension>
 </addon>
-<addon id="repository.seizu" name="seizu Repo" version="1.7.11" provider-name="seizu">
+
+<addon id="plugin.video.xstream" name="xStream" version="4.3.0.6" provider-name="xStream-Team">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="script.module.requests"/>
+		<import addon="script.module.resolveurl" version="5.1.173"/>
+		<import addon="script.module.six" version="1.11.0"/>
+		<import addon="script.module.pyaes"/>
+		<import addon="repository.resolveurl" optional="true"/>
+		<import addon="script.module.inputstreamhelper" version="0.3.3" optional="true"/>
+		<import addon="script.module.pydevd" optional="true" />
+		<import addon="script.module.web-pdb" optional="true" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+    <extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de">xStream</summary>
+		<summary lang="en_GB">xStream</summary>
+		<description lang="de">xStream ist ein Video-Addon für Kodi. xStream dient als Suchmaschine für Filme und Serien auf verschiedenen Webseiten.</description>
+		<description lang="en_GB">xStream is a video add-on for Kodi. xStream serves as a search engine for films and series on various websites.</description>
+		<disclaimer lang="de">Sie können dieses Video Addon gerne verwenden. Der bereitgestellte Inhalt der Webseiten steht in keinem Bezug zu xStream oder den Entwicklern! Weitere Informationen finden Sie in unserer Wiki und FaQ.</disclaimer>
+		<disclaimer lang="en_GB">You are welcome to use this video addon. The content provided on the websites has no connection to xStream or the developers! For more information, see our Wiki and FaQ.</disclaimer>
+		<language>de en</language>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<banner>resources/banner.png</banner>
+			<clearlogo>resources/clearlogo.png</clearlogo>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+			<screenshot>resources/screenshot-04.jpg</screenshot>
+		</assets>
+	</extension>
+</addon>
+
+<addon id="repository.seizu" name="seizu Repo" version="1.7.12" provider-name="seizu">
 	<extension point="xbmc.addon.repository" name="seizu Repository">
         <dir>
            <info compressed="false">https://raw.githubusercontent.com/seizu/seizuRepo/master/docs/addons.xml</info>
@@ -84,12 +127,6 @@
             <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
         </dir>		
-
-        <dir minversion="18.9.701" maxversion="21.9.700">
-             <info compressed="false">https://raw.githubusercontent.com/streamxstream/xStreamRepo/repo/zips/addons.xml</info>
-             <checksum verify="sha256">https://raw.githubusercontent.com/streamxstream/xStreamRepo/repo/zips/addons.xml.sha256</checksum>
-             <datadir zip="true">https://raw.githubusercontent.com/streamxstream/xStreamRepo/repo/zips/</datadir>
-        </dir>
 		
         <dir>
              <info compressed="false">https://raw.githubusercontent.com/dobbelina/repository.dobbelina/master/addons.xml</info>
@@ -107,6 +144,7 @@
 		</assets> 			
 	</extension>
 </addon>
+
 <addon id="script.module.demjson" name="demjson" version="2.3.0" provider-name="Kuci">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
@@ -121,6 +159,7 @@
         <website>https://github.com/dmeranda/demjson</website>
     </extension>
 </addon>
+
 <addon id="script.module.stream.resolver" name="Stream Resolver" provider-name="Libor Zoubek" version="1.7.0">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
@@ -137,4 +176,5 @@
     <platform>all</platform>
   </extension>
 </addon>
+
 </addons>
